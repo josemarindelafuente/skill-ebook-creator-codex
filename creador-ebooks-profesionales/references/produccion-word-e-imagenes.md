@@ -47,15 +47,25 @@ Mantén un constructor reproducible dentro de `produccion/`, adaptado al diseño
 - Configura tamaño físico, márgenes, tipografías disponibles, jerarquías, interlineado y saltos de sección deliberadamente.
 - Incluye portada integrada y capítulos completos en el orden aprobado. Configura aperturas, encabezados y numeración sin números indeseados en la tapa.
 - Inserta imágenes en el archivo, con proporciones correctas y texto alternativo; conserva pies y referencias. Evita vínculos a recursos externos.
-- Añade índice navegable cuando el alcance lo justifique. Actualiza campos si las herramientas lo permiten y comprueba su resultado; no inventes números de página ni anuncies un índice actualizado si requiere actualización manual en Word.
+- Incluye siempre un índice de contenidos visible, editable y navegable en el Word final, salvo omisión solicitada expresamente por el usuario. Aplica las reglas de la sección siguiente; no basta con crear `indice.md` ni activar el panel de navegación de Word.
 - Evita viudas, títulos huérfanos, pies separados, tablas recortadas, páginas vacías accidentales y texto ilegible. Conserva tablas para información que realmente requiere comparación o filas de datos.
 - Nunca sustituyas capítulos por resúmenes para resolver problemas de paginación.
 
 Antes del final, comprueba que todos los elementos del inventario existen, conservan su hash y tienen aprobación. Verifica la confirmación del inventario. Para la demo, selecciona explícitamente sus componentes sin activar este requisito final.
 
+## Índice de contenidos en Word
+
+- Ubícalo después de la tapa y las páginas preliminares que correspondan, antes del cuerpo del libro, con el encabezado «Índice». Su diseño debe acompañar la identidad visual aprobada, pero se construye como texto de Word, no como imagen.
+- Incluye todos los capítulos con los títulos exactos y en el orden del inventario aprobado. Añade introducción, conclusión y anexos cuando existan; incluye subsecciones si aportan orientación y no vuelven excesivamente largo el índice. Excluye la tapa y el propio índice.
+- Prefiere una tabla de contenido nativa de Word basada en encabezados semánticos. Si los títulos están integrados en imágenes, usa marcadores o campos de entrada de índice asociados a las aperturas para conservar destinos correctos sin duplicar títulos visibles innecesariamente.
+- Cada entrada debe enlazar internamente con la sección correspondiente. Incluye números de página reales de la edición maquetada cuando puedan calcularse y verificarse. Actualiza los campos después de insertar todas las piezas y de cualquier cambio que afecte la paginación, y vuelve a renderizar hasta que las referencias coincidan con las páginas finales.
+- No entregues un campo de índice vacío o con un mensaje de actualización como único índice. Si el entorno no puede materializar una tabla de contenido nativa, crea un índice visible con hipervínculos internos. Si no puedes verificar la paginación, omite los números y comunica esa limitación; no omitas el índice ni inventes páginas. No anuncies actualización automática o páginas verificadas cuando no lo estén.
+- Comprueba que todas las entradas tengan un destino existente y correcto, que no falte ningún capítulo ni haya duplicados y que los números visibles coincidan con la numeración del documento. La comprobación debe cubrir también capítulos cuya apertura sea una imagen.
+- En la demo, incluye un índice de las secciones presentes para revisar su aspecto. Un esquema adicional del libro futuro debe identificarse como provisional y no simular enlaces o páginas inexistentes.
+
 ## Comprobación de entrega
 
-1. Comprueba el paquete `.docx`, extracción de texto y relaciones de imágenes. Contrasta con los Markdown aprobados para detectar secciones omitidas, duplicaciones o texto truncado. Verifica que no haya notas internas ni marcadores pendientes.
+1. Comprueba el paquete `.docx`, extracción de texto y relaciones de imágenes. Contrasta con los Markdown aprobados para detectar secciones omitidas, duplicaciones o texto truncado. Verifica que no haya notas internas ni marcadores pendientes. Comprueba el índice visible, la cobertura de capítulos, los destinos de sus enlaces y las páginas mostradas según las reglas anteriores.
 2. Ejecuta `render_docx.py` de la skill de documentos cuando esté disponible y abre los PNG de todas las páginas, no solo la portada. Corrige errores de composición y vuelve a renderizar la versión que se entregará.
 3. Guarda en `produccion/control-calidad.md` el archivo revisado, fecha, método, páginas inspeccionadas, comprobaciones y limitaciones reales. Distingue validación por renderizador de apertura en Microsoft Word.
 4. Entrega Word mediante enlace absoluto. Los Markdown y las imágenes siguen accesibles para revisión y reutilización. Las capturas de QA y PDF intermedios se conservan para control interno, salvo pedido del usuario.

@@ -10,6 +10,7 @@ Acompaña a una persona con poca experiencia desde su idea hasta un libro comple
 ## Contrato de trabajo
 
 - Entrega real: Word editable con portada, capítulos completos e imágenes incrustadas. No sustituyas el entregable por instrucciones para Canva, prompts de imágenes, esquemas o un PDF.
+- Incluye obligatoriamente un índice de contenidos visible, editable y navegable dentro del Word final, con todos los capítulos en el orden aprobado. El archivo de planificación `indice.md` no sustituye el índice del documento. Solo omítelo si el usuario lo pide expresamente.
 - Todas las imágenes entregadas son piezas de diseño completas: integran arte, textos y tratamiento tipográfico coherentes con la dirección elegida por el usuario. Esto incluye tapa, imágenes de capítulos e infografías. No entregues fondos o ilustraciones sin texto para que el usuario termine el diseño; los recursos sin texto solo pueden ser insumos intermedios, salvo pedido explícito del usuario.
 - Crea una demo Word temprana, antes de desarrollar el resto del libro. Incluye portada y primer capítulo representativo, preferentemente completo, con su imagen y un recurso práctico; añade una infografía si aporta comprensión.
 - Escribe cada capítulo primero en un archivo `.md` independiente, muéstralo para revisión y solicita feedback específico antes de avanzar al siguiente. Mantén separados el texto del libro y las notas de producción.
@@ -60,6 +61,8 @@ Produce `demo-v01.docx` con portada, una introducción breve si ayuda y el prime
 
 La demo debe mostrar la tapa y la pieza del primer capítulo ya terminadas, con sus textos y tipografías integrados. Solicita feedback sobre esa composición completa y comprueba su legibilidad al tamaño que tendrán en Word.
 
+Incluye en la demo una muestra del índice con enlaces a las secciones realmente incluidas. Si muestras también el índice previsto del libro completo, identifícalo como provisional y no asignes enlaces ni números de página ficticios a capítulos aún ausentes.
+
 Renderiza e inspecciona todas sus páginas conforme a la referencia de producción. Entrega el archivo Word y solicita feedback concreto sobre portada, legibilidad, estilo interior, imágenes y profundidad del texto. Registra por separado aprobación visual y aprobación editorial. Itera la demo hasta acordar la dirección, antes de producir los capítulos restantes.
 
 ## 5. Desarrollar capítulo por capítulo
@@ -85,6 +88,8 @@ Muestra un inventario breve de capítulos y piezas aprobadas, con versiones, y e
 ## 7. Compilar y entregar
 
 Tras la confirmación, ensambla desde los archivos aprobados y en el orden registrado, nunca desde recuerdos del chat. No reescribas, resumas ni añadas contenido durante la conversión. Si aparece un cambio de contenido necesario, vuelve a su revisión; un cambio de composición puede resolverse sin nueva aprobación editorial.
+
+Genera el índice de contenidos dentro del Word, después de la portada y las páginas preliminares que correspondan, antes del cuerpo del libro. Sigue las reglas de producción para enlazar cada entrada con su capítulo y verificar las páginas de la edición terminada.
 
 Genera el `.docx`, verifica integridad de textos e imágenes y renderiza e inspecciona todas las páginas. Corrige defectos y repite la inspección de la versión final. Entrega un enlace absoluto al Word, la ubicación de capítulos e imágenes y una nota breve sobre la validación. No afirmes que abriste Microsoft Word si solo verificaste mediante un renderizador.
 

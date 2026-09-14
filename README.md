@@ -57,6 +57,8 @@ Puedes agregar, quitar, reorganizar o cambiar capítulos antes de comenzar la re
 
 **Resultado de esta etapa:** un índice acordado que funciona como guía para escribir el libro.
 
+Ese esquema también se convierte en un **índice de contenidos dentro del Word final**, visible, editable y con enlaces a los capítulos. Se ubica antes del cuerpo del libro e incluye números de página cuando puedan verificarse en la edición terminada. La demo muestra el índice de las secciones que contiene. El archivo de planificación no reemplaza este índice del documento.
+
 ### 4. Elegir el diseño de portada y del interior
 
 La skill te pregunta cómo te gustaría que se vea la portada: qué sensación quieres transmitir, qué colores te gustan y si prefieres fotografías, ilustraciones o un diseño centrado en el texto.
