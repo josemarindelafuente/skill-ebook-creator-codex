@@ -12,7 +12,20 @@ Si no hay skill de documentos, usa las capacidades locales verificadas para gene
 
 Usa la portada aprobada como referencia de paleta, estilo de ilustración, composición y tono. Conserva variedad de temas entre capítulos sin perder unidad. No impongas portadillas a página completa para todos los capítulos: acuerda con la demo si conviene una apertura completa o una imagen integrada.
 
-Prefiere título, subtítulo, autor y números de capítulo como texto editable en Word, con arte sin texto cuando ayude a evitar errores. Comprueba ortografía de cualquier texto incrustado en imágenes. Para editar una imagen local, inspecciónala antes y sigue la herramienta de edición disponible.
+Entrega cada imagen como una composición editorial terminada con textos y tipografías integrados. El usuario debe poder utilizar la pieza por sí sola, con el mismo diseño que ve en la demo y en el Word final. No delegues la colocación de textos en Canva ni consideres terminado un fondo que dependa de texto añadido en Word.
+
+Antes de generar cada pieza, registra el texto exacto y la dirección tipográfica. Reutiliza los títulos, subtítulos y datos ya acordados sin volver a preguntarlos; presenta los textos nuevos junto con la pieza para revisión. Usa los siguientes criterios:
+
+- Tapa: título, subtítulo acordado y autor o marca si el usuario indicó que deben aparecer. Compón una jerarquía que priorice el título y conserve espacio de lectura.
+- Apertura de capítulo: número y título exactos, con una composición propia dentro de la misma identidad visual. Una frase breve es opcional, si aporta valor.
+- Imágenes adicionales: título breve, rótulos o texto explicativo vinculado al concepto representado. Evita repetir el título del capítulo en todas ellas o agregar frases de relleno.
+- Infografías: título, etiquetas, pasos y datos necesarios, integrados en una composición completa y legible.
+
+Especifica en el prompt el texto literal, respetando acentos, signos y mayúsculas, además del estilo tipográfico, pesos, tamaños relativos, jerarquía, alineación, color y márgenes. Utiliza la portada aprobada como referencia visual cuando la herramienta lo permita. No prometas que una fuente generada coincide exactamente con una familia instalada si no puedes verificarlo.
+
+Inspecciona cada imagen completa y sus textos al tamaño de lectura previsto. Comprueba palabra por palabra la ortografía, números, acentos, texto faltante o inventado, contraste, cortes y consistencia tipográfica. OCR puede ayudar a detectar errores, pero no sustituye la inspección visual. Si falla, corrige con la herramienta de edición o regenera la pieza y vuelve a comprobarla; no elimines los textos como solución ni marques la pieza como aprobada por tu cuenta. Para editar una imagen local, inspecciónala antes y sigue la herramienta de edición disponible.
+
+Cuando se necesite una familia tipográfica exacta que la generación no reproduzca, explica la limitación y plantea composición tipográfica determinista como alternativa. Si el usuario autoriza ese método para editar o componer la imagen, usa fuentes disponibles y exporta igualmente una pieza final con todo el texto integrado. Los insumos sin texto y los archivos de composición no sustituyen esa entrega.
 
 Guarda copias de las imágenes seleccionadas dentro del proyecto, preserva su formato y relación de aspecto, y enlázalas desde el Markdown. No dependas de enlaces remotos ni de archivos temporales o del historial del chat. Nunca reemplaces un archivo aprobado sin conservar su versión.
 
@@ -22,7 +35,7 @@ Diseña para el tamaño físico acordado. Evalúa resolución a tamaño de impre
 
 Selecciona la estructura por el contenido: secuencia para pasos, cuadrantes para cuatro componentes, comparación para alternativas, diagrama para relaciones, gráfico para datos verificables. No fuerces cuatro categorías si el contenido tiene otra estructura.
 
-Mantén textos cortos, jerarquía clara, contraste y espacio de seguridad. No agregues datos ni conclusiones para llenar huecos. Para cifras, tablas y rótulos exactos, usa diagramación determinista o elementos editables, con ilustraciones generadas si aportan valor. Exporta una versión incrustable compatible con Word, preservando además la fuente editable cuando exista. Verifica rótulos, flechas, unidades y correspondencia con el capítulo.
+Mantén textos cortos, jerarquía clara, contraste y espacio de seguridad. No agregues datos ni conclusiones para llenar huecos. Para gráficos y diagramas creados desde datos, puede utilizarse diagramación determinista con tipografía precisa; para editar imágenes generadas, sigue el método y las autorizaciones de la herramienta de imágenes. Exporta una pieza completa con todo el texto integrado, compatible con Word, preservando además la fuente editable cuando exista. Verifica rótulos, flechas, unidades y correspondencia con el capítulo.
 
 ## Compilación
 
@@ -30,6 +43,7 @@ Mantén un constructor reproducible dentro de `produccion/`, adaptado al diseño
 
 - Interpreta encabezados, párrafos, énfasis, listas, enlaces, tablas e imágenes presentes; no entregues sintaxis Markdown cruda.
 - Usa estilos nativos de Word y texto editable, sin convertir las páginas enteras del libro en capturas.
+- El texto narrativo del libro permanece editable; los textos integrados en las piezas gráficas forman parte de esas imágenes y no se anuncian como editables en Word. Inserta las piezas completas aprobadas sin reconstruir su tipografía durante la compilación. Conserva encabezados semánticos para navegación e índice, evitando duplicar visualmente el título de una portadilla de forma innecesaria.
 - Configura tamaño físico, márgenes, tipografías disponibles, jerarquías, interlineado y saltos de sección deliberadamente.
 - Incluye portada integrada y capítulos completos en el orden aprobado. Configura aperturas, encabezados y numeración sin números indeseados en la tapa.
 - Inserta imágenes en el archivo, con proporciones correctas y texto alternativo; conserva pies y referencias. Evita vínculos a recursos externos.

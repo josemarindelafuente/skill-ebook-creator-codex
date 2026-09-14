@@ -41,7 +41,7 @@ Crea los archivos a medida que hacen falta; no entregues carpetas llenas de plan
 
 Cada Markdown de contenido lleva únicamente lo destinado al libro, con encabezados semánticos y enlaces de imágenes relativos al archivo, por ejemplo `![Descripción accesible](../imagenes/capitulo-01-v01.png)`. Pon los pies visibles como texto separado. No insertes aprobaciones, instrucciones de producción ni prompts en el manuscrito.
 
-`produccion/visuales.md`: para cada imagen, propósito, capítulo, ubicación exacta, prompt o método de creación, fuente si procede, ruta y feedback. Para infografías, registra también el texto y los datos verificados.
+`produccion/visuales.md`: para cada imagen, propósito, capítulo, ubicación exacta, texto literal integrado, dirección tipográfica (familia o estilo, pesos, jerarquía, alineación y colores), prompt o método de creación, fuente si procede, ruta y feedback. Registra el resultado de la revisión de ortografía y legibilidad. Para infografías, registra también los datos verificados. Distingue insumos intermedios de la pieza completa lista para insertar: el inventario selecciona esta última.
 
 `estado.json` debe guardar al menos:
 
@@ -57,6 +57,8 @@ Codex mantiene estos archivos; el usuario no necesita editarlos. Calcula hashes 
 ## Versiones y cambios
 
 Conserva la versión aprobada al hacer una revisión. Crea una nueva versión y pásala a revisión. Una aprobación identifica una versión exacta, no cualquier futuro archivo con el mismo título.
+
+La aprobación de una imagen se refiere a su composición completa, incluidos textos y tipografías. Si cambia un título, subtítulo, autor, rótulo o la dirección tipográfica, revisa las piezas afectadas y genera nuevas versiones cuando corresponda. Un cambio en Markdown no actualiza automáticamente el texto dentro de una imagen.
 
 Antes de compilar, recalcula los hashes: si una pieza cambió externamente, no la trates como aprobada. Presenta el cambio y solicita revisión. Cambiar índice, título o estilo puede afectar otras piezas: identifica cuáles y revisa solo las afectadas. No invalidez todo por una corrección ajena a esas piezas.
 

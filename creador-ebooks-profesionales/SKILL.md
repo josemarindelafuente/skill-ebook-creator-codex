@@ -10,6 +10,7 @@ Acompaña a una persona con poca experiencia desde su idea hasta un libro comple
 ## Contrato de trabajo
 
 - Entrega real: Word editable con portada, capítulos completos e imágenes incrustadas. No sustituyas el entregable por instrucciones para Canva, prompts de imágenes, esquemas o un PDF.
+- Todas las imágenes entregadas son piezas de diseño completas: integran arte, textos y tratamiento tipográfico coherentes con la dirección elegida por el usuario. Esto incluye tapa, imágenes de capítulos e infografías. No entregues fondos o ilustraciones sin texto para que el usuario termine el diseño; los recursos sin texto solo pueden ser insumos intermedios, salvo pedido explícito del usuario.
 - Crea una demo Word temprana, antes de desarrollar el resto del libro. Incluye portada y primer capítulo representativo, preferentemente completo, con su imagen y un recurso práctico; añade una infografía si aporta comprensión.
 - Escribe cada capítulo primero en un archivo `.md` independiente, muéstralo para revisión y solicita feedback específico antes de avanzar al siguiente. Mantén separados el texto del libro y las notas de producción.
 - Solicita aprobación de portada, demo, textos e imágenes. No interpretes silencio, tiempo transcurrido o una aprobación de diseño como aprobación del contenido. Acepta aprobaciones conjuntas cuando el usuario identifica claramente las piezas.
@@ -47,6 +48,8 @@ Pregunta cómo le gustaría que se vea la portada: qué sensación quiere transm
 
 Propón una dirección con paleta, tipografías disponibles, composición y estilo de imágenes. Explica cómo se trasladará a títulos, separadores, imágenes e infografías interiores. Propón A4 vertical como opción inicial derivada del documento base y acuerda el formato; respeta otras preferencias.
 
+Define también la jerarquía tipográfica de las piezas: familia o estilo de letra, pesos, tamaños relativos, alineaciones y contraste. La tapa debe incluir el título, el subtítulo acordado y el autor si fue proporcionado para incluirlo. La imagen de apertura de cada capítulo incluye su número y título; las imágenes adicionales llevan un título breve, rótulos o texto explicativo pertinente. Integra los textos dentro del diseño final de la imagen, no únicamente como texto superpuesto después en Word.
+
 Lee [references/produccion-word-e-imagenes.md](references/produccion-word-e-imagenes.md). Genera una portada real con las herramientas disponibles y muéstrala. Pregunta qué conservaría o cambiaría, aplica ese feedback y registra la versión aprobada. No prometas dimensiones de generación que la herramienta no admite.
 
 ## 4. Crear la demo Word
@@ -54,6 +57,8 @@ Lee [references/produccion-word-e-imagenes.md](references/produccion-word-e-imag
 Prepara el primer capítulo en Markdown siguiendo el índice, con al menos una imagen pertinente, ejemplo y recurso práctico si el género lo admite. Preséntalo para revisión y ajusta sus piezas. No necesitas autorización para el Word final para generar esta demo.
 
 Produce `demo-v01.docx` con portada, una introducción breve si ayuda y el primer capítulo, usando las piezas revisadas. Identifica la entrega como demo, sin presentar el resto del libro como terminado. Si el usuario pide probar diseño antes de aprobar texto, puedes usar borradores claramente identificados y conservar sus estados pendientes.
+
+La demo debe mostrar la tapa y la pieza del primer capítulo ya terminadas, con sus textos y tipografías integrados. Solicita feedback sobre esa composición completa y comprueba su legibilidad al tamaño que tendrán en Word.
 
 Renderiza e inspecciona todas sus páginas conforme a la referencia de producción. Entrega el archivo Word y solicita feedback concreto sobre portada, legibilidad, estilo interior, imágenes y profundidad del texto. Registra por separado aprobación visual y aprobación editorial. Itera la demo hasta acordar la dirección, antes de producir los capítulos restantes.
 
@@ -63,7 +68,7 @@ Para cada capítulo:
 
 1. Presenta brevemente su objetivo y pregunta si hay experiencias, ejemplos o puntos que el usuario quiera incluir, salvo que ya los haya proporcionado. Ofrece avanzar con ejemplos hipotéticos si no tiene material propio.
 2. Redacta el capítulo completo en su `.md`, con profundidad proporcional al alcance acordado y continuidad con los anteriores. Revisa repeticiones y hechos antes de mostrarlo.
-3. Genera al menos una imagen pertinente por capítulo, coherente con la portada. Propón infografías cuando aclaren un proceso, comparación, estructura o datos; no son obligatorias en cada capítulo. Define su ubicación y genera las seleccionadas.
+3. Genera al menos una pieza de diseño completa por capítulo, coherente con la portada, con su número y título integrados en la imagen y la tipografía acordada. Toda imagen adicional también integra textos pertinentes a su función. Propón infografías cuando aclaren un proceso, comparación, estructura o datos; no son obligatorias en cada capítulo. Define su ubicación y genera las seleccionadas con todos sus textos y rótulos terminados.
 4. Entrega enlace al Markdown, muestra los visuales y resume qué revisar. Pregunta si desea cambios o aprueba el texto y las imágenes identificadas. Facilita revisión por secciones si el capítulo resulta largo.
 5. Aplica correcciones y registra exactamente las versiones aprobadas. Continúa al siguiente capítulo después del feedback. Si el usuario pide trabajar varios a la vez, respeta el pedido y conserva archivos y revisiones individuales.
 

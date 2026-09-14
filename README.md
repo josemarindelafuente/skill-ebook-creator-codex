@@ -67,6 +67,10 @@ A partir de tus respuestas, propone una identidad visual con colores, tipografí
 
 Codex genera una portada real con las herramientas disponibles, te la muestra y solicita tus comentarios. Esa dirección visual se aplica después al interior, a las aperturas de capítulo y a las infografías.
 
+**Cada imagen es una pieza de diseño completa, con textos y tipografías integrados.** La tapa incluye el título, el subtítulo acordado y el autor cuando corresponda. La imagen de apertura de cada capítulo incluye su número y título; las imágenes adicionales e infografías incorporan los textos y rótulos que necesitan. Todas mantienen la identidad visual elegida. No tienes que terminar los diseños colocando textos en otra aplicación.
+
+Antes de presentar cada pieza, Codex revisa la ortografía, los acentos, la jerarquía tipográfica, el contraste y la legibilidad al tamaño de uso. La demo muestra estas composiciones terminadas para que puedas aprobarlas o pedir cambios.
+
 **Resultado de esta etapa:** una portada aprobada y una dirección de diseño para el libro.
 
 ### 5. Preparar el primer capítulo y una demo en Word
@@ -143,6 +147,8 @@ Si todavía faltan revisiones, se resuelven primero. Si cambia el contenido o la
 Tras la confirmación, Codex reúne los archivos aprobados en el orden acordado y genera el `.docx`.
 
 La conversión conserva el contenido completo: no resume capítulos ni introduce cambios editoriales sin revisión. El texto permanece editable en Word y las imágenes se incorporan dentro del documento.
+
+El contenido narrativo es editable en Word. Los textos que forman parte de la tapa y de las demás piezas gráficas están integrados en las imágenes; para modificarlos se revisa y actualiza la pieza correspondiente.
 
 La comprobación incluye:
 
