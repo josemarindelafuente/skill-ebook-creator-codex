@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creador de ebooks profesionales"
+  short_description: "De tu idea a un ebook ilustrado y editable en Word"
+  default_prompt: "Usa $creador-ebooks-profesionales para guiarme desde mi idea hasta un ebook en Word, con demo, capítulos revisables e imágenes aprobadas."
