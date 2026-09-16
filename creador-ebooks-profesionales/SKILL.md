@@ -47,11 +47,13 @@ Lee [references/criterios-editoriales.md](references/criterios-editoriales.md) a
 
 Pregunta cómo le gustaría que se vea la portada: qué sensación quiere transmitir, colores que le gustan o quiere evitar y si prefiere fotografía, ilustración o una composición tipográfica. Si no sabe, presenta tres direcciones visuales sencillas. Las referencias visuales son opcionales.
 
-Propón una dirección con paleta, tipografías disponibles, composición y estilo de imágenes. Explica cómo se trasladará a títulos, separadores, imágenes e infografías interiores. Propón A4 vertical como opción inicial derivada del documento base y acuerda el formato; respeta otras preferencias.
+Antes de generar la portada, resume los insumos esenciales: título, subtítulo, temática, público objetivo, transformación prometida, autor o marca si corresponde y concepto visual principal. Si falta alguno, pregunta solo lo necesario. La portada debe orientar la percepción del ebook completo, por eso prioriza una solución profesional antes que una acumulación de elementos.
+
+Propón una dirección con paleta, tipografías disponibles, composición y estilo de imágenes. Explica cómo se trasladará a títulos, separadores, imágenes e infografías interiores. Propón A4 vertical como opción inicial derivada del documento base, apto para ebook profesional y reutilizable luego en otras herramientas si el usuario lo desea; respeta otras preferencias. No conviertas Canva en requisito ni destino principal.
 
 Define también la jerarquía tipográfica de las piezas: familia o estilo de letra, pesos, tamaños relativos, alineaciones y contraste. La tapa debe incluir el título, el subtítulo acordado y el autor si fue proporcionado para incluirlo. La imagen de apertura de cada capítulo incluye su número y título; las imágenes adicionales llevan un título breve, rótulos o texto explicativo pertinente. Integra los textos dentro del diseño final de la imagen, no únicamente como texto superpuesto después en Word.
 
-Lee [references/produccion-word-e-imagenes.md](references/produccion-word-e-imagenes.md). Genera una portada real con las herramientas disponibles y muéstrala. Pregunta qué conservaría o cambiaría, aplica ese feedback y registra la versión aprobada. No prometas dimensiones de generación que la herramienta no admite.
+Lee [references/produccion-word-e-imagenes.md](references/produccion-word-e-imagenes.md), especialmente las reglas de portada premium. Genera una portada real con las herramientas disponibles y muéstrala. Pregunta qué conservaría o cambiaría, aplica ese feedback y registra la versión aprobada. No prometas dimensiones de generación que la herramienta no admite.
 
 ## 4. Crear la demo Word
 

@@ -67,6 +67,10 @@ Si no tienes una preferencia clara, ofrece direcciones visuales fáciles de comp
 
 A partir de tus respuestas, propone una identidad visual con colores, tipografías, composición y estilo de imágenes. También acuerda el formato de página; A4 vertical es una opción inicial.
 
+La portada se trabaja como una pieza clave del producto. Antes de generarla, la skill reúne título, subtítulo, temática, público objetivo, transformación prometida, autor o marca si corresponde y concepto visual principal. Con eso busca una composición editorial premium: título protagonista, subtítulo legible, imagen relacionada con el tema, pocos elementos, espacio negativo, buen contraste y sensación de alto valor percibido.
+
+La skill evita portadas genéricas, saturadas o con estética de plantilla básica. No agrega textos inventados: la tapa contiene únicamente el título, el subtítulo y, si fue indicado, el nombre del autor o marca. También revisa que funcione como miniatura para una página de ventas.
+
 Codex genera una portada real con las herramientas disponibles, te la muestra y solicita tus comentarios. Esa dirección visual se aplica después al interior, a las aperturas de capítulo y a las infografías.
 
 **Cada imagen es una pieza de diseño completa, con textos y tipografías integrados.** La tapa incluye el título, el subtítulo acordado y el autor cuando corresponda. La imagen de apertura de cada capítulo incluye su número y título; las imágenes adicionales e infografías incorporan los textos y rótulos que necesitan. Todas mantienen la identidad visual elegida. No tienes que terminar los diseños colocando textos en otra aplicación.

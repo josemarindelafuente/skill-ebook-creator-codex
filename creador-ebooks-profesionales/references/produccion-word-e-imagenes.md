@@ -12,6 +12,34 @@ Si no hay skill de documentos, usa las capacidades locales verificadas para gene
 
 Usa la portada aprobada como referencia de paleta, estilo de ilustración, composición y tono. Conserva variedad de temas entre capítulos sin perder unidad. No impongas portadillas a página completa para todos los capítulos: acuerda con la demo si conviene una apertura completa o una imagen integrada.
 
+## Portada premium
+
+La portada es la pieza visual más importante del ebook. Antes de generarla, reúne y registra: título exacto, subtítulo exacto, temática, público objetivo, transformación prometida, autor o marca si se proporcionó y concepto visual principal. Si falta el autor o marca, omítelo; no inventes nombres ni agregues textos decorativos.
+
+La portada debe transmitir autoridad, profesionalismo, alto valor percibido, claridad, modernidad, confianza y una transformación relacionada directamente con el tema del ebook. Apunta a una composición editorial premium contemporánea, comparable con libros de negocios de alta gama, revistas modernas y branding de productos digitales sofisticados.
+
+Para la composición:
+
+- El título es el protagonista visual.
+- El subtítulo es claramente legible, pero secundario.
+- El autor o marca aparece solo cuando el usuario lo proporcionó.
+- La imagen principal comunica el tema y la transformación prometida; evita resultados genéricos o de banco de imágenes.
+- Usa equilibrio entre texto, imagen y espacio negativo. El espacio vacío forma parte del diseño.
+- Mantén pocos elementos, excelente jerarquía visual, composición limpia, contraste controlado y área de seguridad generosa.
+- Evita texto cerca de los bordes, especialmente del margen inferior.
+
+El enfoque visual puede ser fotografía editorial, composición conceptual, abstracción elegante, iluminación cinematográfica, arquitectura visual minimalista, objetos simbólicos o elementos propios del nicho. Elige automáticamente el enfoque que mejor represente el tema, salvo que el usuario haya elegido otro.
+
+La tipografía debe ser moderna, sofisticada y altamente legible. Usa pocas familias, con jerarquía clara entre título, subtítulo y autor o marca. No prometas una fuente exacta si la herramienta de imagen no permite verificarla; describe el estilo tipográfico y verifica el resultado visual.
+
+La paleta debe ser coherente con el nicho y la emoción buscada. Usa como referencia máxima tres colores principales y un color de acento. Evita combinaciones excesivamente saturadas, degradados dominantes, sombras exageradas, efectos 3D baratos, cajas innecesarias, tipografías infantiles, exceso de iconos y elementos sin función.
+
+El texto de portada debe contener únicamente el título, el subtítulo y, cuando exista, el autor o marca proporcionados. No agregues slogans, frases, beneficios, sellos, etiquetas, fechas ni textos inventados. Si dudas entre agregar o eliminar un elemento visual, elimina el elemento.
+
+La portada debe funcionar dentro del Word y también como miniatura en una página de ventas. Comprueba legibilidad en tamaño pequeño, contraste, márgenes, ortografía exacta, acentos, ausencia de texto extra y coherencia comercial. Si el resultado parece una plantilla básica o pierde claridad en miniatura, itera antes de pedir aprobación.
+
+Propón A4 vertical como formato inicial para el ebook. Puedes usar la proporción aproximada 2480 x 3508 px como referencia de alta resolución cuando la herramienta lo permita, pero no prometas dimensiones exactas si la herramienta disponible no las controla. Aunque el diseño pueda reutilizarse después en Canva, la entrega de la skill es una imagen final integrada en el Word, no una instrucción para terminarla fuera del flujo.
+
 Entrega cada imagen como una composición editorial terminada con textos y tipografías integrados. El usuario debe poder utilizar la pieza por sí sola, con el mismo diseño que ve en la demo y en el Word final. No delegues la colocación de textos en Canva ni consideres terminado un fondo que dependa de texto añadido en Word.
 
 Antes de generar cada pieza, registra el texto exacto y la dirección tipográfica. Reutiliza los títulos, subtítulos y datos ya acordados sin volver a preguntarlos; presenta los textos nuevos junto con la pieza para revisión. Usa los siguientes criterios:
