@@ -222,7 +222,23 @@ Estos atajos son instrucciones conversacionales para la skill. `/final` no aprue
 
 ## Herramientas necesarias y alcance
 
-Para completar el proceso, el entorno de Codex necesita acceso a archivos, generación de imágenes y herramientas para crear y renderizar documentos Word. La skill utiliza las capacidades de documentos e imágenes disponibles en el entorno.
+Para completar el proceso, el sistema operativo donde se ejecuta Codex debe tener acceso a archivos, generación de imágenes y herramientas para crear y revisar documentos Word. La skill utiliza las capacidades de documentos e imágenes disponibles en el entorno, pero algunas etapas dependen de aplicaciones o utilidades instaladas localmente.
+
+Herramientas necesarias o recomendadas:
+
+| Herramienta | Para qué se utiliza | Prioridad |
+| --- | --- | --- |
+| Codex | Ejecutar la skill, conversar con el usuario, crear archivos y coordinar el flujo completo. | Necesaria |
+| Acceso al sistema de archivos | Guardar capítulos `.md`, imágenes, registros de aprobación, demo y Word final. | Necesaria |
+| Python 3.10 o superior | Generar o adaptar scripts de producción, calcular hashes, procesar Markdown, crear `.docx` y ejecutar verificaciones. | Muy recomendada |
+| Bibliotecas de Python para documentos | Crear y manipular archivos Word, imágenes y controles de calidad. Codex puede usar las disponibles en el entorno o instaladas localmente. | Muy recomendada |
+| Microsoft Word | Abrir, revisar y editar el `.docx` final con máxima compatibilidad. También sirve para actualizar campos como el índice si el entorno no puede hacerlo automáticamente. | Recomendada |
+| Renderizador de documentos | Convertir el Word a imágenes o PDF para inspeccionar visualmente todas las páginas antes de entregar. Puede ser el renderizador incluido en la skill de documentos, Microsoft Word, LibreOffice u otra herramienta compatible. | Muy recomendada |
+| Herramienta de generación de imágenes | Crear la portada, imágenes de capítulos e infografías como piezas de diseño completas. | Necesaria para la parte visual |
+| Fuentes tipográficas instaladas | Mantener una identidad visual más consistente cuando se compongan piezas con tipografía controlada. | Recomendada |
+| Conexión a internet | Investigar información cuando el tema lo requiera, verificar fuentes y usar servicios conectados si están disponibles. | Recomendada |
+| Git | Versionar la skill o publicar cambios en un repositorio como GitHub. No es obligatorio para crear un ebook. | Opcional |
+| Canva u otras herramientas de diseño | Reutilizar o adaptar la portada fuera del flujo de Codex si el usuario lo desea. No son necesarias para completar el Word. | Opcional |
 
 Si falta alguna herramienta, Codex debe explicar qué parte está bloqueada y continuar con las tareas independientes que sí pueda realizar. Una descripción de imagen no cuenta como imagen generada, y un documento sin inspección no se presenta como un Word final validado.
 
