@@ -69,10 +69,19 @@ Mantén textos cortos, jerarquía clara, contraste y espacio de seguridad. No ag
 
 Mantén un constructor reproducible dentro de `produccion/`, adaptado al diseño aprobado. Tanto demo como final deben usar la misma configuración de estilos. No hace falta implementar un convertidor Markdown universal; sí conservar fielmente las estructuras que contiene el manuscrito.
 
+El Word final debe sentirse como un producto editorial premium, no como una exportación básica. Define un sistema de diseño para el documento a partir de la portada aprobada:
+
+- Paleta: usa los colores principales y el color de acento definidos en la portada para títulos, separadores, llamadas, numeración, índice, tablas y detalles visuales. Mantén suficiente contraste y evita saturar páginas de lectura.
+- Tipografías: usa familias profesionales disponibles en el sistema o incrustables cuando sea posible. Limita la cantidad de familias y define usos claros para portada, títulos, subtítulos, cuerpo, citas, tablas y pies. Si una fuente solicitada no está disponible, elige una alternativa profesional y regístrala.
+- Jerarquía: configura estilos nativos de Word para título, subtítulo, encabezados, cuerpo, listas, citas, pies, tablas, índice y enlaces. No dependas de formato manual disperso.
+- Página: cuida márgenes, ancho de línea, interlineado, ritmo de párrafos, sangrías, espacios antes y después de títulos, saltos de sección y numeración. Evita páginas densas o pobres visualmente.
+- Recursos editoriales: usa separadores, destacados, cuadros de recurso, checklists, tablas o llamadas solo cuando mejoren la lectura. Deben verse sobrios y coherentes con la portada.
+- Consistencia: aplica la misma lógica de diseño en demo y final. Cualquier cambio visual importante después de la demo debe mostrarse al usuario antes de cerrar el libro.
+
 - Interpreta encabezados, párrafos, énfasis, listas, enlaces, tablas e imágenes presentes; no entregues sintaxis Markdown cruda.
 - Usa estilos nativos de Word y texto editable, sin convertir las páginas enteras del libro en capturas.
 - El texto narrativo del libro permanece editable; los textos integrados en las piezas gráficas forman parte de esas imágenes y no se anuncian como editables en Word. Inserta las piezas completas aprobadas sin reconstruir su tipografía durante la compilación. Conserva encabezados semánticos para navegación e índice, evitando duplicar visualmente el título de una portadilla de forma innecesaria.
-- Configura tamaño físico, márgenes, tipografías disponibles, jerarquías, interlineado y saltos de sección deliberadamente.
+- Configura tamaño físico, márgenes, tipografías profesionales disponibles, jerarquías, interlineado, paleta cromática y saltos de sección deliberadamente.
 - Incluye portada integrada y capítulos completos en el orden aprobado. Configura aperturas, encabezados y numeración sin números indeseados en la tapa.
 - Inserta imágenes en el archivo, con proporciones correctas y texto alternativo; conserva pies y referencias. Evita vínculos a recursos externos.
 - Incluye siempre un índice de contenidos visible, editable y navegable en el Word final, salvo omisión solicitada expresamente por el usuario. Aplica las reglas de la sección siguiente; no basta con crear `indice.md` ni activar el panel de navegación de Word.

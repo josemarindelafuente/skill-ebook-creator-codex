@@ -11,6 +11,8 @@ Acompaña a una persona con poca experiencia desde su idea hasta un libro comple
 
 - Entrega real: Word editable con portada, capítulos completos e imágenes incrustadas. No sustituyas el entregable por instrucciones para Canva, prompts de imágenes, esquemas o un PDF.
 - Incluye obligatoriamente un índice de contenidos visible, editable y navegable dentro del Word final, con todos los capítulos en el orden aprobado. El archivo de planificación `indice.md` no sustituye el índice del documento. Solo omítelo si el usuario lo pide expresamente.
+- La calidad del contenido es parte central del entregable. Investiga cuando el tema lo requiera, verifica afirmaciones relevantes, registra fuentes y evita relleno, generalidades o consejos sin sustento. Un ebook profesional debe sentirse útil, confiable y específico.
+- El Word final debe tener diseño editorial profesional, no solo texto convertido a `.docx`. Usa tipografías profesionales disponibles, jerarquías claras, márgenes cuidados, espacios consistentes y los colores definidos en la portada para que el documento completo se perciba como un producto premium.
 - Todas las imágenes entregadas son piezas de diseño completas: integran arte, textos y tratamiento tipográfico coherentes con la dirección elegida por el usuario. Esto incluye tapa, imágenes de capítulos e infografías. No entregues fondos o ilustraciones sin texto para que el usuario termine el diseño; los recursos sin texto solo pueden ser insumos intermedios, salvo pedido explícito del usuario.
 - Crea una demo Word temprana, antes de desarrollar el resto del libro. Incluye portada y primer capítulo representativo, preferentemente completo, con su imagen y un recurso práctico; añade una infografía si aporta comprensión.
 - Escribe cada capítulo primero en un archivo `.md` independiente, muéstralo para revisión y solicita feedback específico antes de avanzar al siguiente. Mantén separados el texto del libro y las notas de producción.
@@ -72,10 +74,11 @@ Renderiza e inspecciona todas sus páginas conforme a la referencia de producci�
 Para cada capítulo:
 
 1. Presenta brevemente su objetivo y pregunta si hay experiencias, ejemplos o puntos que el usuario quiera incluir, salvo que ya los haya proporcionado. Ofrece avanzar con ejemplos hipotéticos si no tiene material propio.
-2. Redacta el capítulo completo en su `.md`, con profundidad proporcional al alcance acordado y continuidad con los anteriores. Revisa repeticiones y hechos antes de mostrarlo.
-3. Genera al menos una pieza de diseño completa por capítulo, coherente con la portada, con su número y título integrados en la imagen y la tipografía acordada. Toda imagen adicional también integra textos pertinentes a su función. Propón infografías cuando aclaren un proceso, comparación, estructura o datos; no son obligatorias en cada capítulo. Define su ubicación y genera las seleccionadas con todos sus textos y rótulos terminados.
-4. Entrega enlace al Markdown, muestra los visuales y resume qué revisar. Pregunta si desea cambios o aprueba el texto y las imágenes identificadas. Facilita revisión por secciones si el capítulo resulta largo.
-5. Aplica correcciones y registra exactamente las versiones aprobadas. Continúa al siguiente capítulo después del feedback. Si el usuario pide trabajar varios a la vez, respeta el pedido y conserva archivos y revisiones individuales.
+2. Investiga y verifica lo necesario antes de redactar cuando el capítulo dependa de datos, actualidad, normativas, conceptos técnicos, salud, finanzas, educación, psicología, negocios u otro conocimiento especializado. Registra las fuentes y convierte la investigación en explicaciones claras, no en una acumulación de citas.
+3. Redacta el capítulo completo en su `.md`, con profundidad proporcional al alcance acordado y continuidad con los anteriores. Revisa repeticiones, calidad de ejemplos, utilidad práctica y hechos antes de mostrarlo.
+4. Genera al menos una pieza de diseño completa por capítulo, coherente con la portada, con su número y título integrados en la imagen y la tipografía acordada. Toda imagen adicional también integra textos pertinentes a su función. Propón infografías cuando aclaren un proceso, comparación, estructura o datos; no son obligatorias en cada capítulo. Define su ubicación y genera las seleccionadas con todos sus textos y rótulos terminados.
+5. Entrega enlace al Markdown, muestra los visuales y resume qué revisar. Pregunta si desea cambios o aprueba el texto y las imágenes identificadas. Facilita revisión por secciones si el capítulo resulta largo.
+6. Aplica correcciones y registra exactamente las versiones aprobadas. Continúa al siguiente capítulo después del feedback. Si el usuario pide trabajar varios a la vez, respeta el pedido y conserva archivos y revisiones individuales.
 
 No vuelvas a escribir automáticamente el capítulo de la demo al integrarlo al libro. Si cambia, actualiza su versión y revisión.
 
@@ -93,7 +96,7 @@ Tras la confirmación, ensambla desde los archivos aprobados y en el orden regis
 
 Genera el índice de contenidos dentro del Word, después de la portada y las páginas preliminares que correspondan, antes del cuerpo del libro. Sigue las reglas de producción para enlazar cada entrada con su capítulo y verificar las páginas de la edición terminada.
 
-Genera el `.docx`, verifica integridad de textos e imágenes y renderiza e inspecciona todas las páginas. Corrige defectos y repite la inspección de la versión final. Entrega un enlace absoluto al Word, la ubicación de capítulos e imágenes y una nota breve sobre la validación. No afirmes que abriste Microsoft Word si solo verificaste mediante un renderizador.
+Genera el `.docx` con una maquetación premium coherente con la portada: tipografías profesionales disponibles, paleta aprobada, estilos nativos de Word, índice diseñado, aperturas de capítulo cuidadas, tablas limpias, llamados visuales sobrios y ritmo de lectura cómodo. Verifica integridad de textos e imágenes y renderiza e inspecciona todas las páginas. Corrige defectos y repite la inspección de la versión final. Entrega un enlace absoluto al Word, la ubicación de capítulos e imágenes y una nota breve sobre la validación. No afirmes que abriste Microsoft Word si solo verificaste mediante un renderizador.
 
 La monetización, materiales promocionales, PDF y extras comerciales se realizan solo cuando el usuario los pide. No son requisitos para terminar el libro.
 

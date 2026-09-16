@@ -12,6 +12,8 @@ Una skill es un conjunto de instrucciones y referencias que orienta a Codex para
 
 Su objetivo es que puedas participar en las decisiones de tu libro sin tener que resolver la parte técnica. La escritura y el diseño avanzan por etapas, con una demo temprana para comprobar el resultado antes de desarrollar todo el contenido.
 
+La skill prioriza dos aspectos centrales: contenido de calidad y presentación profesional. Cuando el tema lo requiere, Codex investiga, verifica fuentes y evita afirmaciones sin sustento. Al final, el Word se diseña como un producto editorial, usando la identidad visual definida desde la portada.
+
 ## Cómo comenzar
 
 Con la skill disponible en Codex, inicia una conversación y escribe, por ejemplo:
@@ -103,12 +105,14 @@ La demo permite evaluar el aspecto real del libro: portada, tamaño del texto, e
 Con la dirección acordada, se repite este ciclo para los capítulos restantes:
 
 1. Codex presenta el objetivo del capítulo y consulta si quieres aportar experiencias, ejemplos o puntos específicos que todavía no hayas indicado.
-2. Redacta el capítulo completo y lo guarda en su propio archivo `.md`.
-3. Revisa claridad, continuidad, repeticiones y afirmaciones que requieran verificación.
-4. Genera al menos una imagen pertinente, en el estilo visual acordado.
-5. Propone infografías cuando el contenido se beneficie de una explicación visual y genera las seleccionadas.
-6. Te entrega el enlace al capítulo y muestra los recursos visuales para que puedas revisarlos.
-7. Aplica tus comentarios y registra las versiones que apruebas.
+2. Investiga y verifica lo necesario cuando el tema dependa de datos, actualidad, conceptos técnicos, salud, educación, negocios, finanzas, normativa u otra información especializada.
+3. Redacta el capítulo completo y lo guarda en su propio archivo `.md`.
+4. Revisa claridad, continuidad, repeticiones, utilidad práctica y afirmaciones que requieran verificación.
+5. Registra las fuentes utilizadas en `fuentes.md` cuando correspondan, para que el contenido tenga respaldo.
+6. Genera al menos una imagen pertinente, en el estilo visual acordado.
+7. Propone infografías cuando el contenido se beneficie de una explicación visual y genera las seleccionadas.
+8. Te entrega el enlace al capítulo y muestra los recursos visuales para que puedas revisarlos.
+9. Aplica tus comentarios y registra las versiones que apruebas.
 
 Puedes responder de forma natural, por ejemplo:
 
@@ -156,11 +160,14 @@ La conversión conserva el contenido completo: no resume capítulos ni introduce
 
 El contenido narrativo es editable en Word. Los textos que forman parte de la tapa y de las demás piezas gráficas están integrados en las imágenes; para modificarlos se revisa y actualiza la pieza correspondiente.
 
+El Word final debe tener una maquetación profesional, no una apariencia básica de documento de texto. La skill utiliza la portada aprobada como guía visual para definir colores, tipografías, jerarquías, separadores, encabezados, destacados, tablas, índice y aperturas de capítulo. El objetivo es que el archivo `.docx` se perciba como un ebook premium y coherente de principio a fin.
+
 La comprobación incluye:
 
 - Correspondencia entre el Word y los archivos aprobados.
 - Presencia de capítulos e imágenes, sin duplicaciones ni omisiones.
 - Títulos, listas, tablas y numeración.
+- Uso consistente de tipografías profesionales, colores de la portada, jerarquías, márgenes y espacios.
 - Proporciones y legibilidad de las imágenes.
 - Saltos de página, márgenes y ausencia de recortes o superposiciones.
 - Inspección visual de todas las páginas mediante un renderizador.
